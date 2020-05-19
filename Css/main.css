@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header nav {
+  background: pink;
+  overflow: auto;
+  width: 100%;
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  float: right;
+}
+
+.logo img {
+  position: absolute;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+header {
+  min-height: 50px;
+}
+
+nav a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: Arial;
+  color: blue;
+  text-align: center;
+}
+nav a:hover {
+  background: black;
+  transition: 0.5s;
+}
